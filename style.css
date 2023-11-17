@@ -3,16 +3,7 @@
     margin: 0 ;
     padding: 0;
 }
-.front-head{
-    background-color: rgb(0, 206, 206);
-    height: 60px;
-    display: flex;
-    justify-content: center;
-   
-
- 
-}
-.container-front-head{
+.container-front-head{       /*Header*/
     height: 50px;
     display: flex;
     justify-content: center;
@@ -20,9 +11,16 @@
     width: 70%;
     flex-wrap: wrap;
     margin-top: 5px;
-   
+    
 }
 
+.front-head{                    /*front-head*/
+    background-color: rgb(0, 206, 206);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+
+}
 .logo{
     width: 20%;
     background-color: orange;
@@ -56,4 +54,18 @@ a{
     padding: 5px;
     
 }
-
+ /*under front head*/
+.under-front-head{
+    background-color: blue;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-under-front-head{
+    background-color: palevioletred;
+    min-width: 50%;
+    height: 320px;
+    border: 1px dashed black;
+   
+}
